@@ -31,17 +31,21 @@ if (window.location.pathname === "/") {
 if (window.location.pathname === "/views/prompt.html") {
   let promptOrder = sessionStorage.promptOrder.split(" ");
 
+  // get current card, save values to sessionStorage
   let idx = parseInt(promptOrder.pop(), 10);
   let currentPrompt = PROMPT_CARDS[idx];
   sessionStorage.answer = currentPrompt.answer;
   sessionStorage.category = currentPrompt.category;
 
+  // if deck is empty, re-shuffle
   if (promptOrder.length === 0) {
     promptOrder = shuffle(PROMPT_CARDS);
   }
 
+  // save new order to sessionStorage
   sessionStorage.promptOrder = promptOrder.join(" ");
 
+  // insert content
   document.querySelector("h2").innerHTML = currentPrompt.title;
   document.querySelector("p").innerHTML = currentPrompt.prompt;
   document.querySelector("h4").innerHTML = currentPrompt.category;
@@ -51,4 +55,25 @@ if (window.location.pathname === "/views/prompt.html") {
 if (window.location.pathname === "/views/answer.html") {
   document.querySelector("p").innerHTML = sessionStorage.answer;
   document.querySelector("h4").innerHTML = sessionStorage.category;
+}
+
+if (window.location.pathname === "/views/key.html") {
+  let keyOrder = sessionStorage.keyOrder.split(" ");
+
+  // get current card
+  let idx = parseInt(keyOrder.pop(), 10);
+  let currentKey = KEY_CARDS[idx];
+
+  // if deck is empty, re-shuffle
+  if (keyOrder.length === 0) {
+    keyOrder = shuffle(KEY_CARDS);
+  }
+
+  // save new order to sessionStorage
+  sessionStorage.keyOrder = keyOrder.join(" ");
+
+  // insert content
+  document.querySelector("h2").innerHTML = currentKey.title;
+  //TODO: insert image
+  document.querySelector("p").innerHTML = currentKey.content;
 }
