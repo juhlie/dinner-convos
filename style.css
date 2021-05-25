@@ -27,9 +27,8 @@ a {
   text-decoration: none;
 }
 
-li a:hover {
+li:hover {
   text-decoration: underline dashed;
-  background-color: white;
   transition-duration: 0.2s;
 }
 
@@ -59,6 +58,10 @@ body {
 }
 
 #app {
+  text-align: center;
+}
+
+#btns {
   text-align: center;
 }
 
@@ -123,4 +126,10 @@ h4 {
   position: absolute;
   bottom: 2em;
   right: 3em;
+}
+
+img {
+  width: 3em;
+  display: block;
+  margin: 2em auto 1em auto;
 }

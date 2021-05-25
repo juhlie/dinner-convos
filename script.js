@@ -1,6 +1,7 @@
 import { KEY_CARDS, PROMPT_CARDS } from "/cards.js";
+import { about, answer, instructions, key, prompt } from "/views.js";
 
-export const shuffle = (deck) => {
+const shuffle = (deck) => {
   const order = [];
   for (let i = 0; i < deck.length; i++) {
     order.push(i);
@@ -18,62 +19,102 @@ export const shuffle = (deck) => {
   return order;
 };
 
-// main page interactivity
-if (window.location.pathname === "/") {
-  let keyOrder = shuffle(KEY_CARDS).join(" ");
-  let promptOrder = shuffle(PROMPT_CARDS).join(" ");
+/**
+ *
+ * VARIABLES
+ *
+ **/
+const app = document.querySelector("#app");
+const card = document.querySelector("#card");
+let keyOrder = shuffle(KEY_CARDS);
+let promptOrder = shuffle(PROMPT_CARDS);
+let currentPrompt = {};
+const title = document.querySelector("h1");
+const startBtn = document.querySelector("#begin");
+const keyBtn = document.querySelector("#key");
+const answerBtn = document.querySelector("#answer");
+const nextBtn = document.querySelector("#next");
 
-  sessionStorage.setItem("keyOrder", keyOrder);
-  sessionStorage.setItem("promptOrder", promptOrder);
-}
+const renderAbout = () => {
+  app.innerHTML = about;
+  card.hidden = true;
+  document.querySelector("#btns").hidden = true;
+};
 
-// prompt page interactivity
-if (window.location.pathname === "/views/prompt.html") {
-  let promptOrder = sessionStorage.promptOrder.split(" ");
+const renderInstructions = () => {
+  app.innerHTML = instructions;
+  card.hidden = true;
+  document.querySelector("#btns").hidden = true;
+};
 
-  // get current card, save values to sessionStorage
-  let idx = parseInt(promptOrder.pop(), 10);
-  let currentPrompt = PROMPT_CARDS[idx];
-  sessionStorage.answer = currentPrompt.answer;
-  sessionStorage.category = currentPrompt.category;
+const renderPrompt = () => {
+  // show / hide elements
+  title.hidden = true;
+  startBtn.hidden = true;
+  nextBtn.hidden = true;
+  card.hidden = false;
+  answerBtn.hidden = false;
+  keyBtn.hidden = false;
+  card.innerHTML = prompt;
 
-  // if deck is empty, re-shuffle
-  if (promptOrder.length === 0) {
-    promptOrder = shuffle(PROMPT_CARDS);
-  }
-
-  // save new order to sessionStorage
-  sessionStorage.promptOrder = promptOrder.join(" ");
+  // get current card
+  let idx = promptOrder.pop();
+  currentPrompt = PROMPT_CARDS[idx];
 
   // insert content
   document.querySelector("h2").innerHTML = currentPrompt.title;
   document.querySelector("p").innerHTML = currentPrompt.prompt;
   document.querySelector("h4").innerHTML = currentPrompt.category;
-}
 
-// answer page interactivity
-if (window.location.pathname === "/views/answer.html") {
-  document.querySelector("p").innerHTML = sessionStorage.answer;
-  document.querySelector("h4").innerHTML = sessionStorage.category;
-}
+  // if deck is empty, re-shuffle
+  if (promptOrder.length === 0) {
+    promptOrder = shuffle(PROMPT_CARDS);
+  }
+};
 
-if (window.location.pathname === "/views/key.html") {
-  let keyOrder = sessionStorage.keyOrder.split(" ");
+const renderAnswer = () => {
+  // show / hide elements
+  answerBtn.hidden = true;
+  keyBtn.hidden = false;
+  nextBtn.hidden = false;
+  card.innerHTML = answer;
+
+  // insert content
+  document.querySelector("p").innerHTML = currentPrompt.answer;
+  document.querySelector("h4").innerHTML = currentPrompt.category;
+};
+
+const renderKey = () => {
+  // show / hide elements
+  answerBtn.hidden = true;
+  keyBtn.hidden = false;
+  nextBtn.hidden = false;
+  card.innerHTML = key;
 
   // get current card
-  let idx = parseInt(keyOrder.pop(), 10);
+  let idx = keyOrder.pop();
   let currentKey = KEY_CARDS[idx];
+
+  // insert content
+  document.querySelector("h2").innerHTML = currentKey.title;
+  document.querySelector("img").src = currentKey.image;
+  document.querySelector("img").alt = currentKey.alt;
+  document.querySelector("p").innerHTML = currentKey.content;
 
   // if deck is empty, re-shuffle
   if (keyOrder.length === 0) {
     keyOrder = shuffle(KEY_CARDS);
   }
+};
 
-  // save new order to sessionStorage
-  sessionStorage.keyOrder = keyOrder.join(" ");
+document.querySelector("#nav2").onclick = () => renderAbout();
 
-  // insert content
-  document.querySelector("h2").innerHTML = currentKey.title;
-  //TODO: insert image
-  document.querySelector("p").innerHTML = currentKey.content;
-}
+document.querySelector("#nav3").onclick = () => renderInstructions();
+
+document.querySelector("#begin").onclick = () => renderPrompt();
+
+answerBtn.onclick = () => renderAnswer();
+
+nextBtn.onclick = () => renderPrompt();
+
+keyBtn.onclick = () => renderKey();

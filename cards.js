@@ -28,17 +28,20 @@ export const KEY_CARDS = [
   {
     title: "MIRROR",
     image: "/assets/0.png",
+    alt: "A black key",
     content: "Use the Mirror Card to bounce the question to another player.",
   },
   {
     title: "SILENCE",
     image: "/assets/1.png",
+    alt: "A black key",
     content:
       "Use the Silence Card to request a moment of silence on the table.",
   },
   {
     title: "SWAP",
     image: "/assets/2.png",
+    alt: "A black key",
     content:
       "Swap Card allows you to swap out the card you have already picked with a different card.",
   },

@@ -12,6 +12,8 @@
 			"
     />
 
+    <title>Conversations For Every Dinner Table</title>
+
     <link rel="stylesheet" href="/style.css" />
 
     <link
@@ -31,13 +33,19 @@
     <nav>
       <ul>
         <li id="nav1"><a href="/">Conversations For Every Dinner Table</a></li>
-        <li id="nav2"><a href="/views/about.html">About</a></li>
-        <li id="nav3"><a href="/views/instructions.html">Instructions</a></li>
+        <li id="nav2">About</li>
+        <li id="nav3">Instructions</li>
       </ul>
     </nav>
     <div id="app">
       <h1>Conversations For Every Dinner Table</h1>
-      <a href="/views/prompt.html"><button>Click to Begin</button></a>
+      <button id="begin">Click to Begin</button>
+    </div>
+    <div id="card" hidden></div>
+    <div id="btns">
+      <button id="key" hidden>Draw a Key Card</button>
+      <button id="answer" hidden>See the Answer</button>
+      <button id="next" hidden>See Next Card</button>
     </div>
   </body>
 </html>
