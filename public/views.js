@@ -17,26 +17,23 @@ export const Instructions = `<h3>Instructions</h3>
 
 export const Prompt = `
 <div id="card">
-        <h2>Question</h2>
-        <p>
-          How many maternal deaths are there for every 100,000 live births in
-          the United States?
-        </p>
-        <h4>Postpartum</h4>
+        <h2></h2>
+        <p></p>
+        <h4></h4>
       </div>
       <button>Draw a Key Card</button>
-      <button>See the Answer</button>
+      <a href="/answer"><button>See the Answer</button></answer>
     </div>
 `;
 
 export const Answer = `
 <div id="card">
-        <h2>Answer</h2>
-        <p>This card is open-ended. There is no correct answer!</p>
-        <h4>Postpartum</h4>
+        <h2>ANSWER</h2>
+        <p></p>
+        <h4></h4>
       </div>
-      <button>Back to Prompt</button>
-      <button>See Next Card</button>
+      <a onclick="window.history.back();"><button>Back to Prompt</button></a>
+      <a href="/prompt"><button>See Next Card</button></a>
     </div>`;
 
 export const Key = ``;

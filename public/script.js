@@ -19,6 +19,23 @@ const shuffle = (deck) => {
   return order;
 };
 
+/**
+ *
+ * State variables
+ *
+ */
+
+let promptOrder = shuffle(PROMPT_CARDS);
+let keyOrder = shuffle(KEY_CARDS);
+let currentPrompt = {};
+console.log("VARIABLES RELOADING...");
+
+/**
+ *
+ * Router setup for dynamic single page
+ *
+ */
+
 const routes = [
   { path: "/", view: Main },
   { path: "/about", view: About },
@@ -38,11 +55,31 @@ const router = async () => {
 
   // attach view to DOM
   document.querySelector("#app").innerHTML = match.view;
+
+  // insert prompt card content
+  if (match.view === Prompt) {
+    const idx = promptOrder.pop();
+    currentPrompt = PROMPT_CARDS[idx];
+    console.log("HI", promptOrder);
+    document.querySelector("h2").innerHTML = currentPrompt.title;
+    document.querySelector("p").innerHTML = currentPrompt.prompt;
+    document.querySelector("h4").innerHTML = currentPrompt.category;
+
+    // if no more cards, re-shuffle
+    if (promptOrder.length === 0) {
+      promptOrder = shuffle(PROMPT_CARDS);
+    }
+  }
+
+  if (match.view === Answer) {
+    console.log("YODDD", currentPrompt);
+    document.querySelector("p").innerHTML = currentPrompt.answer;
+  }
 };
 
 // load view
 document.addEventListener("DOMContentLoaded", (e) => {
-  // router();
+  router();
 });
 
 // handle page changes dynamically
@@ -56,12 +93,3 @@ document.body.addEventListener("click", (e) => {
 
 // handle forward/back buttons dynamically
 window.addEventListener("popstate", router);
-
-/**
- *
- * START OF SESSION
- *
- */
-
-let keyOrder = shuffle(KEY_CARDS);
-let promptOrder = shuffle(PROMPT_CARDS);
