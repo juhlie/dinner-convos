@@ -1,0 +1,33 @@
+nav {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #fff;
+}
+li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+li a {
+  text-decoration: none;
+  color: #1ac;
+}
+
+body {
+  border: 1px dashed black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
