@@ -1,0 +1,126 @@
+::selection {
+  background: gainsboro;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px dashed black;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+  margin: 0 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline dashed;
+  background-color: white;
+  transition-duration: 0.2s;
+}
+
+#nav1 {
+  grid-column-start: 1;
+  grid-column-end: -3;
+}
+
+#nav2 {
+  grid-column-start: -2;
+}
+
+#nav3 {
+  grid-column-start: -1;
+}
+
+body {
+  font-family: IBM Plex Mono, sans-serif;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+#app {
+  text-align: center;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-size: 36px;
+  margin: 5em auto 1em;
+}
+
+button {
+  margin: 1em 2.2em 1em;
+  padding: 1em;
+  font-family: inherit;
+  font-size: 15px;
+  color: inherit;
+  background-color: inherit;
+  border: 1px solid black;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px dashed black;
+  transition-duration: 0.2s;
+}
+
+h3 {
+  margin-top: 3em;
+}
+
+p {
+  margin: 1em 8em;
+  line-height: 2;
+}
+
+#card {
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  height: 30em;
+  width: 25em;
+  box-sizing: border-box;
+  margin: 3em auto 1em;
+  padding: 2em 3em;
+}
+
+#card p {
+  text-align: left;
+  margin: 2em auto 1em;
+}
+
+/* card title */
+h2 {
+  text-align: left;
+}
+
+/* card category */
+h4 {
+  position: absolute;
+  bottom: 2em;
+  right: 3em;
+}

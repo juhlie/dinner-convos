@@ -1,0 +1,22 @@
+{
+  "name": "dinner-convos",
+  "version": "1.0.0",
+  "description": "Perfect Conversations for Every Dinner Table is a resource that aims to support the power of individuals to provoke open and healthy discussions on how to achieve better lives for their families and their communities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blouhie/dinner-convos.git"
+  },
+  "author": "Julie Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blouhie/dinner-convos/issues"
+  },
+  "homepage": "https://github.com/blouhie/dinner-convos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
