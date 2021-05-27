@@ -36,35 +36,30 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "What does your new body, the one capable of making and sustaining life, invoke to you?",
-    answer: "Wow.",
     category: "postpartum",
   },
   {
     title: "REFLECT",
     prompt:
       "Google is the main search tool after giving birth which spreads misinformation. What other alternatives are there?",
-    answer: "Wow.",
     category: "postpartum",
   },
   {
     title: "REFLECT",
     prompt:
       "1 in 4 women return to work just 10 days after giving birth. What financial, social, and personal factors do you think affect this statistic?",
-    answer: "Wow.",
     category: "postpartum",
   },
   {
     title: "REFLECT",
     prompt:
       "Think about the public services available to someone after they give birth. Are they enough to let someone feel supported and at ease?",
-    answer: "Wow.",
     category: "postpartum",
   },
   {
     title: "REFLECT",
     prompt:
       "Many people are too overwhelmed to ask for help immediately postpartum and are adjusting to a new sleep and support schedule. Community and collective care before, during, and after the pregnancy can offer support without someone needing to ask for it.",
-    answer: "Wow.",
     category: "postpartum",
   },
   {
@@ -125,75 +120,64 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "Someone’s first postpartum intense orgasm — what conditions make it possible?",
-    answer: "That's so wild!",
     category: "postpartum",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Your sex drive never recovered after giving birth. You feel dreadful towards the idea of having to get intimate with your partner, who has been trying to be supportive and understanding but is getting frustrated as well. What do you do?",
-    answer: "That's so wild!",
     category: "postpartum",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Draw a c-section that allows for immediate chestfeeding/breastfeeding",
-    answer: "That's so wild!",
     category: "postpartum",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Imagine your friend’s pregnancy did not result in a living newborn, what could you do to transform your relationship to be supportive?",
-    answer: "That's so wild!",
     category: "postpartum",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Most incarcerated cisgender women are parents. In many states, women’s prisons are in remote rural areas and some women are sent to serve their time in other states. Visiting hours are limited and may only happen by facetime or video. Calls can be expensive. What can you do to change this?",
-    answer: "That's so wild!",
     category: "postpartum",
   },
   {
     title: "DRAW",
     prompt: "A day postpartum without crying",
-    answer: "Beautiful.",
     category: "postpartum",
   },
   {
     title: "DRAW",
     prompt:
       "Underwear that cool the perineal discomfort without feeling like adult diapers",
-    answer: "Beautiful.",
     category: "postpartum",
   },
   {
     title: "DRAW",
     prompt:
       "Your real or imagined support network postpartum whether or not you’ve given birth",
-    answer: "Beautiful.",
     category: "postpartum",
   },
   {
     title: "DRAW",
     prompt: "Your ideal breast pump",
-    answer: "Beautiful.",
     category: "postpartum",
   },
   {
     title: "TELL A STORY",
     prompt:
       "Forgiveness is healthy. Tell us about some mistakes you made as a new parent that you ultimately forgave yourself for.",
-    answer: "Thank you for sharing.",
     category: "postpartum",
   },
   {
     title: "TELL A STORY",
     prompt:
       "The biggest surprise you learned about yourself or your body after giving birth",
-    answer: "Thank you for sharing.",
     category: "postpartum",
   },
   {
@@ -248,35 +232,30 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "Incarcerated menstruating people have limited access to menstrual products and are not given adequate resources, so they often have to get creative and make their own menstrual products that can be shameful, unsanitary, and uncomfortable.",
-    answer: "Wow.",
     category: "menstruation",
   },
   {
     title: "REFLECT",
     prompt:
       "Where do menstruating people experiencing homelessness get their period products?",
-    answer: "Wow.",
     category: "menstruation",
   },
   {
     title: "REFLECT",
     prompt:
       "Some trans and nonbinary people menstruate and don’t want to — it can often be triggering, embarrassing, or emotionally distressing. What would you say to support them if they were your friend?",
-    answer: "Wow.",
     category: "menstruation",
   },
   {
     title: "REFLECT",
     prompt:
       "Your relationship to your menstrual cycle can change over time depending on desire for or against pregnancy. It can become easy or cumbersome, but for many feel like a regular relationship to the body and nature.",
-    answer: "Wow.",
     category: "menstruation",
   },
   {
     title: "REFLECT",
     prompt:
       "The Red Tent was a space that women and menstruating people were required to sequester while on their monthly cycle out of shame, stigma, and fear. This secretly became a space of refuge for people to share stories, creative inspiration, and support.",
-    answer: "Wow.",
     category: "menstruation",
   },
   {
@@ -319,47 +298,40 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "In 2200, an [opt-out-period] pill has been invented. It is 100% safe and doesn't have any side effects.  Anyone can pick them up for free from any community health clinic. Would you choose to take the pill? Why or why not?",
-    answer: "That's wild!",
     category: "menstruation",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "In 2068, a pair of [incognito underpants] are invented to help build our anti-shaming muscle. The underpants' key feature lets you witness every moment of someone bleeding through their clothes in public. Would you choose to wear these underpants? Why or why not?",
-    answer: "That's wild!",
     category: "menstruation",
   },
   {
     title: "DRAW",
     prompt: "Leak-free menstrual product",
-    answer: "Beautiful.",
     category: "menstruation",
   },
   {
     title: "DRAW",
     prompt:
       "A blueprint for a reusable menstrual pad and/or menstrual underwear",
-    answer: "Beautiful.",
     category: "menstruation",
   },
   {
     title: "DRAW",
     prompt: "The [ideal] first menstrual cycle",
-    answer: "Beautiful.",
     category: "menstruation",
   },
   {
     title: "TELL A STORY",
     prompt:
       "Ask another player for their [first period] story. How does it relate to (or not) your experience?",
-    answer: "Thank you for sharing.",
     category: "menstruation",
   },
   {
     title: "TELL A STORY",
     prompt:
       "Have you ever lent someone menstrual products or have they lent products to you? How did it feel to be asked/ask for help?",
-    answer: "Thank you for sharing.",
     category: "menstruation",
   },
   {
@@ -405,34 +377,29 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "What comes to mind when you hear the word “virginity”? Share these thoughts with the group, and reflect on how/why you’ve made such associations.",
-    answer: "Wow.",
     category: "sex",
   },
   {
     title: "REFLECT",
     prompt:
       "Health care providers may fail to ask disabled people about their sexual lives, conduct full pelvic exams or test them for STD/HIV, because it is assumed that they do/should not have sex.",
-    answer: "Wow.",
     category: "sex",
   },
   {
     title: "REFLECT",
     prompt: "All bodies are desirable.",
-    answer: "Wow.",
     category: "sex",
   },
   {
     title: "REFLECT",
     prompt:
       "Some people use different words for their body parts to feel safe and comfortable during sex. Have you ever asked a partner what turns them off or on?",
-    answer: "Wow.",
     category: "sex",
   },
   {
     title: "REFLECT",
     prompt:
       "If one day you wake up to discover that you no longer feel any desire or interest to have sex, how will that impact your life and relationship? How do you manage?",
-    answer: "Wow.",
     category: "sex",
   },
   {
@@ -481,46 +448,39 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "In 2220, painless birth control will be invented for men. IUDs and pills will be obsolete. You are about to have a conversation with your intimate partner on taking turns to own the responsibility of birth control.",
-    answer: "That's wild!",
     category: "sex",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "What does ethical, body positive pornography look like? Have you experienced it? ",
-    answer: "That's wild!",
     category: "sex",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Imagine the complete liberation of LGBTQ+ communities. What steps are important to achieve this goal?",
-    answer: "That's wild!",
     category: "sex",
   },
   {
     title: "DRAW",
     prompt:
       "The right way of putting on a condom — yes, there is a right way of doing it. Tips: Don't forget to pinch the tip!",
-    answer: "Beautiful.",
     category: "sex",
   },
   {
     title: "DRAW",
     prompt: "What is the relationship of pain to pleasure and vice versa?",
-    answer: "Beautiful.",
     category: "sex",
   },
   {
     title: "TELL A STORY",
     prompt: "Have you ever made a safe word for sex? How did you think of it?",
-    answer: "Thank you for sharing.",
     category: "sex",
   },
   {
     title: "TELL A STORY",
     prompt: "How did the internet change sex for you?",
-    answer: "Thank you for sharing.",
     category: "sex",
   },
   {
@@ -558,35 +518,30 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "[Pharmacists' refusal] started in the late 1990s to oppose emergency contraception then regular oral contraception. There is no reliable data on how many pharmacists’ refusals are taking place. What would you do if you were in this situation?",
-    answer: "Wow.",
     category: "abortion",
   },
   {
     title: "REFLECT",
     prompt:
       "The United States has been an unfortunate pioneer in forced sterilizations of disabled people, Indiginous populations, LGBTQ+ folks, Black people, the incarcerated, and most recently ICE detainees. In what ways can we offer support to these communities?",
-    answer: "Wow.",
     category: "abortion",
   },
   {
     title: "REFLECT",
     prompt:
       "In what ways do negative attitudes and beliefs about abortion create barriers in accessing safe services?",
-    answer: "Wow.",
     category: "abortion",
   },
   {
     title: "REFLECT",
     prompt:
       "Is an abortion to choose the sex of the child less valid than an abortion made for other reasons?",
-    answer: "Wow.",
     category: "abortion",
   },
   {
     title: "REFLECT",
     prompt:
       "What does it mean to have the right to parent in a physically and environmentally safe context?",
-    answer: "Wow.",
     category: "abortion",
   },
   {
@@ -629,61 +584,52 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "Imagine a respectful discussion with someone who disagrees with your stance on abortion. What would that conversation look like? <br> (Keep in mind: Pro choice is simply that all people have the right to choose what happens to their bodies.) ",
-    answer: "That's wild!",
     category: "abortion",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "What does a safe, affordable and respectful abortion experience look like?",
-    answer: "That's wild!",
     category: "abortion",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "What would you like our future to look like concerning abortion laws?",
-    answer: "That's wild!",
     category: "abortion",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "What does the world look like when abortions are no longer needed even if they're freely and easily accessible?",
-    answer: "That's wild!",
     category: "abortion",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Imagine someone who is anti-choice and pro-life needing an abortion, how can you be supportive of their choice without shaming them for being anti-choice?",
-    answer: "That's wild!",
     category: "abortion",
   },
   {
     title: "DRAW",
     prompt: "Feelings after an abortion",
-    answer: "Beautiful.",
     category: "abortion",
   },
   {
     title: "DRAW",
     prompt:
       "A map of how close the nearest abortion provider should be to every birthing person in the U.S.",
-    answer: "Beautiful.",
     category: "abortion",
   },
   {
     title: "DRAW",
     prompt: "A care package for someone before and after having an abortion.",
-    answer: "Beautiful.",
     category: "abortion",
   },
   {
     title: "TELL A STORY",
     prompt:
       "When was the first time you heard the word abortion? Who did you hear it from? Has it always felt like an emotionally intense word?",
-    answer: "Thank you for sharing.",
     category: "abortion",
   },
   {
@@ -731,41 +677,35 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "If you are pregnant, your body is going through massive changes. Be kind to yourself.",
-    answer: "Wow.",
     category: "pregnancy & fertility",
   },
   {
     title: "REFLECT",
     prompt: "You are in control of your birthing options.",
-    answer: "Wow.",
     category: "pregnancy & fertility",
   },
   {
     title: "REFLECT",
     prompt:
       "How can we help the body heal better after childbirth-issues like incontinence?",
-    answer: "Wow.",
     category: "pregnancy & fertility",
   },
   {
     title: "REFLECT",
     prompt:
       "Trans men can and do give birth. The best support they can receive is listening to their needs and preferences just as you with any pregnant person.",
-    answer: "Wow.",
     category: "pregnancy & fertility",
   },
   {
     title: "REFLECT",
     prompt:
       "For any birthing person, the term breastfeeding might not work. As a replacement, some people choose to say “chestfeeding” to be more inclusive.",
-    answer: "Wow.",
     category: "pregnancy & fertility",
   },
   {
     title: "REFLECT",
     prompt:
       "A 7-year-old child asks you: [Where do babies come from?] How would you answer?",
-    answer: "Wow.",
     category: "pregnancy & fertility",
   },
   {
@@ -807,74 +747,63 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "In 2121, an external, artificial womb is invented and made available on the commercial market. Child-rearing and birthing can now be done in this device instead of inside a body, and a parent of any gender or age can choose to wear it. Would you use this device in your family? Why or why not?",
-    answer: "That's wild!",
     category: "pregnancy & fertility",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Imagine a future that repairs the relationships between incarcerated parents and their children (or incarcerated children and their parents). What steps toward freedom and collective care are necessary?",
-    answer: "That's wild!",
     category: "pregnancy & fertility",
   },
   {
     title: "THINK WILDLY",
     prompt: "High-quality childcare is free for all. How do we make it happen?",
-    answer: "That's wild!",
     category: "pregnancy & fertility",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Some people choose to place their newborn up for adoption for a number of reasons. What radical and loving ways can we support both the birthing person and the newborn without fear, stigma, or shame?",
-    answer: "That's wild!",
     category: "pregnancy & fertility",
   },
   {
     title: "THINK WILDLY",
     prompt: "Is there a world without reproductive coercion?",
-    answer: "That's wild!",
     category: "pregnancy & fertility",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "Imagine a world where pregnant women can exist without facing discrimination at work.",
-    answer: "That's wild!",
     category: "pregnancy & fertility",
   },
   {
     title: "DRAW",
     prompt:
       "A pregnancy without nausea and random pukes, constant retching and metal taste in your mouth.",
-    answer: "Beautiful.",
     category: "pregnancy & fertility",
   },
   {
     title: "DRAW",
     prompt:
       "An interaction with a pregnant person that doesn’t include someone giving them unsolicited advice",
-    answer: "Beautiful.",
     category: "pregnancy & fertility",
   },
   {
     title: "DRAW",
     prompt: "A pregnant superhero or comic book character",
-    answer: "Beautiful.",
     category: "pregnancy & fertility",
   },
   {
     title: "TELL A STORY",
     prompt:
       "If you’ve given birth, share your birth story — this is something most people remember their whole lives. If no one at the table has before, imagine your ideal birth story.",
-    answer: "Thank you for sharing.",
     category: "pregnancy & fertility",
   },
   {
     title: "TELL A STORY",
     prompt:
       "Describe how your healthcare provider talked to you about your first pregnancy. If you haven’t been pregnant, what type of conversation would you hope to have?",
-    answer: "Thank you for sharing.",
     category: "pregnancy & fertility",
   },
   {
@@ -909,35 +838,30 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "As we age, do our bodies need to be repaired? Do our bodies need to be healed? Why or why not?",
-    answer: "Wow.",
     category: "menopause",
   },
   {
     title: "REFLECT",
     prompt:
       "Describe your ideal self at the age 65. <br> This includes people 65 and older.",
-    answer: "Wow.",
     category: "menopause",
   },
   {
     title: "REFLECT",
     prompt:
       "Do you look forward to menopause? Describe what you would like to do once you enter this new stage of life?",
-    answer: "Wow.",
     category: "menopause",
   },
   {
     title: "REFLECT",
     prompt:
       "Your body changes dramatically over the years as it ages. Reflect on how you feel about these changes. ",
-    answer: "Wow.",
     category: "menopause",
   },
   {
     title: "REFLECT",
     prompt:
       "Menopause can often be a loss of power associated with beauty and fertility that people go through. In other communities, it can mean the person is more powerful and a revered elder.",
-    answer: "Wow.",
     category: "menopause",
   },
   {
@@ -994,34 +918,29 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "You have been given an award for completing the journey of menopausal experience. You prepared a speech for the award ceremony. What does it say?",
-    answer: "That's wild!",
     category: "menopause",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "What's pleasureful physical intimacy for you and/or your partner after menopause? What would you like? What would you need?",
-    answer: "That's wild!",
     category: "menopause",
   },
   {
     title: "DRAW",
     prompt:
       "A sex toy you would use, on yourself or with your partner, at any age.",
-    answer: "Beautiful.",
     category: "menopause",
   },
   {
     title: "DRAW",
     prompt: "An outfit for someone who is postmenopause",
-    answer: "Beautiful.",
     category: "menopause",
   },
   {
     title: "TELL A STORY",
     prompt:
       "About your own menopause or someone you know. It could be a past experience, or something yet to happen in the future.",
-    answer: "Thank you for sharing.",
     category: "menopause",
   },
   {
@@ -1068,49 +987,42 @@ export const PROMPT_CARDS = [
     title: "REFLECT",
     prompt:
       "Evidence-based care means standards of health maintenance that are proven through clinical trials and observations over long periods of time. Often in reproductive health, providers are relying on out-dated ideas or practices because there is a lot of judgment and moralizing around sexual and reproductive health.",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
     title: "REFLECT",
     prompt:
       "Incarcerated people often have poor access to reproductive health and routine preventive care due to indifference for their wellbeing. Is that just?",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
     title: "REFLECT",
     prompt:
       "Following sexual assault, is there a way to not re-traumatize someone who wants forensic evidence of the experience they survived?",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
     title: "REFLECT",
     prompt:
       "Have you heard of or experienced vaginismus? Vulvodynia? (hint: look up both conditions if you’re unsure)",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
     title: "REFLECT",
     prompt:
       "Trauma informed care requires safety, trustworthiness and transparency, peer support, collaboration, empowerment of voice and choice, and regard to cultural, historical, and gender issues.",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
     title: "REFLECT",
     prompt:
       "Have you ever been examined by someone using a vaginal speculum? Did you like it? Do you look forward to it?",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
     title: "REFLECT",
     prompt:
       "The history of gynecology includes experimentation and surgeries without anesthesia on Black women named Lucy, Betsey, and Anarcha who were enslaved in the U.S. without their consent.",
-    answer: "Wow.",
     category: "reproductive health",
   },
   {
@@ -1161,58 +1073,49 @@ export const PROMPT_CARDS = [
     title: "THINK WILDLY",
     prompt:
       "What does healthcare in your setting look like that includes joy, affordability, and no stress?",
-    answer: "That's wild!",
     category: "reproductive health",
   },
   {
     title: "THINK WILDLY",
     prompt:
       "You are getting a routine physical that includes a pelvic exam. The provider offers you to insert your own speculum, how do you feel? Would you accept? <br> (This is something you can really ask for if you’ve never been offered this before!!)",
-    answer: "That's wild!",
     category: "reproductive health",
   },
   {
     title: "THINK WILDLY",
     prompt: "Imagine a world where having a STD is not shameful.",
-    answer: "That's wild!",
     category: "reproductive health",
   },
   {
     title: "THINK WILDLY",
     prompt: "Think of a kind way to learn troubling health results",
-    answer: "That's wild!",
     category: "reproductive health",
   },
   {
     title: "DRAW",
     prompt: "The perfect table for a pelvic exam",
-    answer: "Beautiful.",
     category: "reproductive health",
   },
   {
     title: "DRAW",
     prompt: "A pap test for men",
-    answer: "Beautiful.",
     category: "reproductive health",
   },
   {
     title: "DRAW",
     prompt: "A better way to see the cervix without a speculum",
-    answer: "Beautiful.",
     category: "reproductive health",
   },
   {
     title: "TELL A STORY",
     prompt:
       "Have you ever had a mammogram? How did you know you needed one and what was your experience like?",
-    answer: "Thank you for sharing.",
     category: "reproductive health",
   },
   {
     title: "TELL A STORY",
     prompt:
       "What are times your reproductive healthcare provider asked for consent? When are times you wish they did?",
-    answer: "Thank you for sharing.",
     category: "reproductive health",
   },
 ];

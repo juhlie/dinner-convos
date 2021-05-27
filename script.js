@@ -40,6 +40,7 @@ let keyOrder = shuffle(KEY_CARDS);
 let promptOrder = shuffle(PROMPT_CARDS);
 let currentPrompt = {};
 const title = document.querySelector("h1");
+const backBtn = document.querySelector("#back");
 const startBtn = document.querySelector("#begin");
 const keyBtn = document.querySelector("#key");
 const answerBtn = document.querySelector("#answer");
@@ -89,10 +90,9 @@ const renderPrompt = () => {
   // show / hide elements
   title.hidden = true;
   startBtn.hidden = true;
-  nextBtn.hidden = true;
+  backBtn.hidden = true;
   modal.hidden = true;
   card.hidden = false;
-  answerBtn.hidden = false;
   keyBtn.hidden = false;
   card.innerHTML = prompt;
 
@@ -105,6 +105,16 @@ const renderPrompt = () => {
   document.querySelector("#card p").innerHTML = currentPrompt.prompt;
   document.querySelector("h4").innerHTML = currentPrompt.category;
 
+  // show answer only if card has an answer
+  if ("answer" in currentPrompt) {
+    console.log("this card has an answer");
+    answerBtn.hidden = false;
+    nextBtn.hidden = true;
+  } else {
+    console.log("this card doesn't have an answer??");
+    nextBtn.hidden = false;
+  }
+
   // if deck is empty, re-shuffle
   if (promptOrder.length === 0) {
     promptOrder = shuffle(PROMPT_CARDS);
@@ -114,13 +124,38 @@ const renderPrompt = () => {
 const renderAnswer = () => {
   // show / hide elements
   answerBtn.hidden = true;
-  keyBtn.hidden = false;
+  keyBtn.hidden = true;
+  backBtn.hidden = false;
   nextBtn.hidden = false;
   card.innerHTML = answer;
 
   // insert content
   document.querySelector("#card p").innerHTML = currentPrompt.answer;
   document.querySelector("h4").innerHTML = currentPrompt.category;
+};
+
+// when viewing answer, press back to go back to the prompt
+const goBack = () => {
+  // show / hide elements
+  backBtn.hidden = true;
+  keyBtn.hidden = true;
+  keyBtn.hidden = false;
+  card.innerHTML = prompt;
+
+  // insert content
+  document.querySelector("h2").innerHTML = currentPrompt.title;
+  document.querySelector("#card p").innerHTML = currentPrompt.prompt;
+  document.querySelector("h4").innerHTML = currentPrompt.category;
+
+  // show answer only if card has an answer
+  if ("answer" in currentPrompt) {
+    console.log("this card has an answer");
+    answerBtn.hidden = false;
+    nextBtn.hidden = true;
+  } else {
+    console.log("this card doesn't have an answer??");
+    nextBtn.hidden = false;
+  }
 };
 
 const renderKey = () => {
@@ -130,7 +165,7 @@ const renderKey = () => {
   nextBtn.hidden = false;
   card.innerHTML = key;
 
-  // get current card
+  // get current card, keep all 10 cards in deck
   let idx = keyOrder.pop();
   let currentKey = KEY_CARDS[idx];
   keyOrder.unshift(idx);
@@ -145,7 +180,6 @@ const renderKey = () => {
   // if 10 cards have been drawn, re-shuffle
   if (keyCardCount % 10 === 0) {
     keyOrder = shuffle(KEY_CARDS);
-    console.log(keyCardCount, "shuffling");
   }
 };
 
@@ -170,3 +204,5 @@ answerBtn.onclick = () => renderAnswer();
 nextBtn.onclick = () => renderPrompt();
 
 keyBtn.onclick = () => renderKey();
+
+backBtn.onclick = () => goBack();
