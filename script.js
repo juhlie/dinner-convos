@@ -8,6 +8,7 @@ import {
   guidelines,
   home,
   guidelinesModal,
+  cardDesign,
 } from "/views.js";
 
 const shuffle = (deck) => {
@@ -66,6 +67,12 @@ const renderInstructions = () => {
 
 const renderGuidelines = () => {
   app.innerHTML = guidelines;
+  card.hidden = true;
+  btns.hidden = true;
+};
+
+const renderCardDesign = () => {
+  app.innerHTML = cardDesign;
   card.hidden = true;
   btns.hidden = true;
 };
@@ -145,6 +152,8 @@ document.querySelector("#nav2").onclick = () => renderManifesto();
 document.querySelector("#nav3").onclick = () => renderInstructions();
 
 document.querySelector("#nav4").onclick = () => renderGuidelines();
+
+document.querySelector("#nav5").onclick = () => renderCardDesign();
 
 document.querySelector("#begin").onclick = () => renderGuidelinesModal();
 

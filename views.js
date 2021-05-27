@@ -120,7 +120,7 @@ export const guidelines = `
 It is important to hold conversations that are respectful, thought-provoking, and most importantly safe. Safety in a conversation means not just being heard, but the words that are used do not cause more harm to those who are systematically left behind: people of color, people with disabilities, LGBTQ+ people, women, and many others intersectional identities that are usually not heard. Here are some community guidelines that can support healthy and fruitful conversations and are not meant to harm or pass judgment, but uplift and spread joy and safety. Take some time to read these together and propose additional guidelines you think would help you feel open to the possibilities of new conversations.
 </p>
 
-~~~
+---
 
 <ul>
 <li>
@@ -149,7 +149,6 @@ Some conversations take courage. Acknowledge that courage by agreeing to keep th
 
 <li>
 To help everyone enjoy the conversation, keep in mind the following when you contribute your thoughts or answers: 
-</li>
 
 <ul>
 <li>
@@ -164,6 +163,7 @@ Personal attacks, name-calling, trolling and abuse will not be acceptable and re
 Different viewpoints are welcome. Respect that other people playing this game have had different life experiences and may have a different perspective to yours.
 </li>
 </ul>
+</li>
 
 <li>
 Ask the group if there are any other guidelines that players want to establish before playing the game.
@@ -177,7 +177,7 @@ export const guidelinesModal = `
 It is important to hold conversations that are respectful, thought-provoking, and most importantly safe. Safety in a conversation means not just being heard, but the words that are used do not cause more harm to those who are systematically left behind: people of color, people with disabilities, LGBTQ+ people, women, and many others intersectional identities that are usually not heard. Here are some community guidelines that can support healthy and fruitful conversations and are not meant to harm or pass judgment, but uplift and spread joy and safety. Take some time to read these together and propose additional guidelines you think would help you feel open to the possibilities of new conversations.
 </p>
 
-~~~
+---
 
 <ul>
 <li>
@@ -206,8 +206,6 @@ Some conversations take courage. Acknowledge that courage by agreeing to keep th
 
 <li>
 To help everyone enjoy the conversation, keep in mind the following when you contribute your thoughts or answers: 
-</li>
-
 <ul>
 <li>
 Avoid defamatory, indecent, offensive, profane, discriminatory, misleading, unlawful or threatening language. 
@@ -221,11 +219,26 @@ Personal attacks, name-calling, trolling and abuse will not be acceptable and re
 Different viewpoints are welcome. Respect that other people playing this game have had different life experiences and may have a different perspective to yours.
 </li>
 </ul>
+</li>
 
 <li>
 Ask the group if there are any other guidelines that players want to establish before playing the game.
 </li>
 </ul>
+`;
+
+export const cardDesign = `
+<div class="content">
+<h3>Card Design</h3>
+<p>Conversations For Every Dinner Table originated as a physical card deck. It will be available to purchase soon. Check back for updates!</p>
+<img src="/assets/mockup_03.jpg"></img>
+<img src="/assets/mockup_04.jpg"></img>
+<img src="/assets/mockup_02.jpg"></img>
+<img src="/assets/mockup_01.jpg"></img>
+<img src="/assets/mockup_05.jpg"></img>
+<img src="/assets/mockup_06.jpg"></img>
+<img src="/assets/mockup_07.jpg"></img>
+</div>
 `;
 
 export const home = `

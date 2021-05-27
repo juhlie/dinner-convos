@@ -34,7 +34,7 @@ nav ul {
 nav li {
   list-style: none;
   font-size: 15px;
-  margin: 0 15px;
+  margin: 0 0.8em;
 }
 
 a {
@@ -62,28 +62,22 @@ nav li:hover {
 }
 
 #nav2 {
-  grid-column-start: -3;
-}
-
-#nav2:hover {
-  background-color: white;
-  transition-duration: 0.5s;
+  grid-column-start: -4;
 }
 
 #nav3 {
-  grid-column-start: -2;
-}
-
-#nav3:hover {
-  background-color: white;
-  transition-duration: 0.5s;
+  grid-column-start: -3;
 }
 
 #nav4 {
+  grid-column-start: -2;
+}
+
+#nav5 {
   grid-column-start: -1;
 }
 
-#nav4:hover {
+.nav-hover:hover {
   background-color: white;
   transition-duration: 0.5s;
 }
@@ -116,11 +110,23 @@ body {
 
 .content ul {
   margin: calc(3vh) calc(15vw);
+  text-align: left;
   line-height: 2;
 }
 
 .content li {
   margin-top: 2em;
+}
+
+.content ul li ul {
+  padding: 0px;
+  margin-left: calc(5vw);
+  width: 90%;
+}
+
+.content img {
+  width: 60%;
+  margin: 1.5em auto;
 }
 
 #app {
@@ -199,7 +205,7 @@ h2 {
   right: 3em;
 }
 
-img {
+#card img {
   width: 3em;
   display: block;
   margin: 2em auto 1em auto;
@@ -260,4 +266,8 @@ img {
 .modal button:hover {
   background-color: cornsilk;
   transition: 0.5s;
+}
+
+#background {
+  margin-top: 8em;
 }
