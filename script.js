@@ -48,6 +48,7 @@ const btns = document.querySelector("#btns");
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".close");
 const proceed = document.querySelector("#proceed");
+let keyCardCount = 0;
 
 const renderHome = () => {
   app.innerHTML = home;
@@ -132,6 +133,8 @@ const renderKey = () => {
   // get current card
   let idx = keyOrder.pop();
   let currentKey = KEY_CARDS[idx];
+  keyOrder.unshift(idx);
+  keyCardCount++;
 
   // insert content
   document.querySelector("h2").innerHTML = currentKey.title;
@@ -139,9 +142,10 @@ const renderKey = () => {
   document.querySelector("img").alt = currentKey.alt;
   document.querySelector("#card p").innerHTML = currentKey.content;
 
-  // if deck is empty, re-shuffle
-  if (keyOrder.length === 0) {
+  // if 10 cards have been drawn, re-shuffle
+  if (keyCardCount % 10 === 0) {
     keyOrder = shuffle(KEY_CARDS);
+    console.log(keyCardCount, "shuffling");
   }
 };
 

@@ -1220,22 +1220,58 @@ export const PROMPT_CARDS = [
 export const KEY_CARDS = [
   {
     title: "MIRROR",
-    image: "/assets/0.png",
-    alt: "A black key",
+    image: "/assets/mirror.png",
+    alt: "A drawing of a mirror",
     content: "Use the Mirror Card to bounce the question to another player.",
   },
   {
     title: "SILENCE",
-    image: "/assets/1.png",
-    alt: "A black key",
+    image: "/assets/silence.png",
+    alt: 'A drawing of a person making the "shush" gesture',
     content:
       "Use the Silence Card to request a moment of silence on the table.",
   },
   {
     title: "SWAP",
-    image: "/assets/2.png",
-    alt: "A black key",
+    image: "/assets/swap.png",
+    alt: "A drawing of a bidirectional wiggling arrow",
     content:
       "Swap Card allows you to swap out the card you have already picked with a different card.",
+  },
+  {
+    title: "SPECULATIVE",
+    image: "/assets/binoculars.png",
+    alt: "A drawing of a pair of binoculars",
+    content:
+      "Use the Speculative Card if you prefer to answer the question in a speculative way. Think wildly!",
+  },
+  {
+    title: "AFFIRMATION",
+    image: "/assets/love.png",
+    alt: "A drawing of two hands surrounding a heart",
+    content:
+      "When an Affirmation Card is played, all players will send words of affirmation to the person who just finished answering a question.",
+  },
+  {
+    title: "THINK POSITIVELY",
+    image: "/assets/affirmation.png",
+    alt:
+      "A drawing of a person looking in a mirror. Their reflection is wearing a royal crown.",
+    content:
+      "A Think Positively Card is a reminder to yourself that these topics are normal, beautiful, and don't have to make you feel uncomfortable.",
+  },
+  {
+    title: "LISTEN DEEPLY",
+    image: "/assets/listen.png",
+    alt: "A drawing of an ear",
+    content:
+      "A Listen Deeply Card is a reminder to ourselves to communicate our non-verbal sense of attentiveness, awareness, and availability.",
+  },
+  {
+    title: "SIT IN STILLNESS",
+    image: "/assets/stillness.png",
+    alt: "A drawing of a lotus blossom",
+    content:
+      "Tap silently into your own internal compass, tune into the non-verbal energy of the moment, and honor what's transpiring.",
   },
 ];

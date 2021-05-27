@@ -253,7 +253,7 @@ export const home = `
 
 export const key = `
 <h2></h2>
-<div class="card-content">
+<div class="card-content key">
 <img></img>
 <p></p>
 </div>

@@ -186,6 +186,10 @@ h3 {
   overflow-y: auto;
 }
 
+.key {
+  height: 21em;
+}
+
 #card p {
   text-align: left;
   margin: 0em auto 0em;
@@ -206,9 +210,8 @@ h2 {
 }
 
 #card img {
-  width: 3em;
-  display: block;
-  margin: 2em auto 1em auto;
+  height: 10em;
+  margin: 0px auto 0px 4em;
 }
 
 .pseudolink {
