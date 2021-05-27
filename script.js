@@ -107,11 +107,9 @@ const renderPrompt = () => {
 
   // show answer only if card has an answer
   if ("answer" in currentPrompt) {
-    console.log("this card has an answer");
     answerBtn.hidden = false;
     nextBtn.hidden = true;
   } else {
-    console.log("this card doesn't have an answer??");
     nextBtn.hidden = false;
   }
 
@@ -149,11 +147,9 @@ const goBack = () => {
 
   // show answer only if card has an answer
   if ("answer" in currentPrompt) {
-    console.log("this card has an answer");
     answerBtn.hidden = false;
     nextBtn.hidden = true;
   } else {
-    console.log("this card doesn't have an answer??");
     nextBtn.hidden = false;
   }
 };

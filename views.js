@@ -13,14 +13,16 @@ export const manifesto = `
 <p>
   Start a meaningful conversation by picking a card.
 </p>
-
+		
 <h3 id="background">About the Team</h3>
 
 <h3>DINA</h3>
 
 <p>
-Dina Benbrahim (she/her/hers) is an Arab multidisciplinary creative who uses a feminist lens to focus on illuminating the power in human beings to be transformative forces in society. Her current research investigates d=esign for civic action and social justice for marginalized communities to collectively reimagine equitable futures. Dina has experience in design, art direction, copywriting and entrepreneurship in New York and Casablanca, with SYPartners New York, J. Walter Thompson New York and Casablanca, and Shem’s Publicité. She is now an Assistant Professor in Design. She is motivated to activate greatness in everyone she encounters.
+Dina Benbrahim (she/her/hers) is an Arab multidisciplinary creative who uses a feminist lens to focus on illuminating the power in human beings to be transformative forces in society. Her current research investigates design for civic action and social justice for marginalized communities to collectively reimagine equitable futures. Dina has experience in design, art direction, copywriting and entrepreneurship in New York and Casablanca, with SYPartners New York, J. Walter Thompson New York and Casablanca, and Shem’s Publicité. She is now an Assistant Professor in Design. She is motivated to activate greatness in everyone she encounters.
 </p>
+
+<a href="https://www.dinabenbrahim.com/" target="_blank">website</a> / <a href="https://www.instagram.com/dina.benbrahim/" target="_blank">instagram</a>
 
 <h3>TANVI</h3>
 
@@ -34,18 +36,35 @@ Tanvi Avasthi (she/her/hers) is a nurse, soon-to-be-midwife-and-women’s-health
 Tia Jain (she/her/hers) is an incoming freshman at UC Berkeley studying Computer Science. She is deeply interested in solving issues with an ethical lens—especially in technology. For the past couple of years, she has been exploring the intersection of Artificial Intelligence and Healthcare by publishing bioinformatics and machine learning research as well as an AI-based iOS app. She’s committed to empowering and amplifying the voices of historically underrepresented students, particularly in the CS space.
 </p>
 
+<a href="https://www.instagram.com/tiajainn/" target="_blank">instagram</a> / <a href="https://www.linkedin.com/in/tiajain/" target="_blank">linkedin</a>
+
 <h3>ALTHEA</h3>
 
 <p>
 Althea Rao (she/her/hers) creates social engagement models to facilitate playful conversations that unpack normalized systemic power imbalance. She draws influence from media studies, intersectionality, design justice and grass-root organizing. Her project Vagina Chorus, a bio-responsive, socially-engaged multimedia performance spotlighting women’s health and healthcare accessibilities, is a recipient of the 2020 MAP Fund. Currently, she focuses on revealing states of institutionalized disempowerment, facilitating radical community healing, and designing systems for intrinsic accountability.
 </p>
 
+<a href="https://altheamrao.myportfolio.com/" target="_blank">website</a> / <a href="https://www.instagram.com/cloudville/" target="_blank">instagram</a> 
+
+
 <h3>JULIE CHO</h3>
 
-<h3>JULIE LAM</h3>
+<p>
+Julie Cho (she/her/hers) is an LA-based social psychology researcher studying social learning and transitioning into UX. She’s invested in using data to increase accessibility and create social impact, drawing from her experiences in academia and organizing. As a 1.5-generation Korean American, she’s constantly language brokering, exposing different flavors of patriarchy, and advocating for individual and group therapy.
+<p>
 
-  
+<a href="https://www.instagram.com/hyejibeji/" target="_blank">instagram</a> 
+
+<h3>JULIE LAM</h3>
+<p>
+Julie Lam (she/her/hers) is studying Computer Science, Cognitive Science, and Arts & Creative Technologies at Oberlin College (class of 2023). She is currently interested in the intersection of new media, design justice, and human-computer interaction. She believes in interdisciplinary approaches towards building technology that emphasize a critical and artistic lens, and has spent the past six years involved in community art initiatives and feminist and antiracist organizing, most recently in the realm of AI ethics. 
 </p>
+
+<a href="https://julielam.glitch.me" target="_blank">website</a> / <a href="https://www.instagram.com/luv_bugz/" target="_blank">instagram</a> 
+
+<h3>ARSH</h3>
+
+<p>bio coming soon</p>
 </div>
 `;
 
@@ -231,6 +250,19 @@ export const cardDesign = `
 <div class="content">
 <h3>Card Design</h3>
 <p>Conversations For Every Dinner Table originated as a physical card deck. It will be available to purchase soon. Check back for updates!</p>
+
+<p>
+Also, check out Repro Convos on
+      <a href="https://www.instagram.com/reproconvos/" target="_blank"
+        >Instagram</a
+      >
+      and
+      <a
+        href="https://www.facebook.com/profile.php?id=100068455756498"
+        target="_blank"
+        >Facebook</a
+      >
+</p>
 <img src="/assets/mockup_03.jpg"></img>
 <img src="/assets/mockup_04.jpg"></img>
 <img src="/assets/mockup_02.jpg"></img>
@@ -249,7 +281,9 @@ export const home = `
     <div id="btns">
       <button id="key" hidden>Draw a Key Card</button>
       <button id="answer" hidden>See the Answer</button>
-      <button id="next" hidden>See next card</button>`;
+      <button id="back" hidden>Back to Card</button>
+      <button id="next" hidden>Draw a Prompt Card</button>
+    </div>`;
 
 export const key = `
 <h2></h2>
