@@ -1,5 +1,13 @@
 import { KEY_CARDS, PROMPT_CARDS } from "/cards.js";
-import { about, answer, instructions, key, prompt } from "/views.js";
+import {
+  manifesto,
+  answer,
+  instructions,
+  key,
+  prompt,
+  guidelines,
+  home,
+} from "/views.js";
 
 const shuffle = (deck) => {
   const order = [];
@@ -34,17 +42,28 @@ const startBtn = document.querySelector("#begin");
 const keyBtn = document.querySelector("#key");
 const answerBtn = document.querySelector("#answer");
 const nextBtn = document.querySelector("#next");
+const btns = document.querySelector("#btns");
 
-const renderAbout = () => {
-  app.innerHTML = about;
+const renderHome = () => {
+  app.innerHTML = home;
+};
+
+const renderManifesto = () => {
+  app.innerHTML = manifesto;
   card.hidden = true;
-  document.querySelector("#btns").hidden = true;
+  btns.hidden = true;
 };
 
 const renderInstructions = () => {
   app.innerHTML = instructions;
   card.hidden = true;
-  document.querySelector("#btns").hidden = true;
+  btns.hidden = true;
+};
+
+const renderGuidelines = () => {
+  app.innerHTML = guidelines;
+  card.hidden = true;
+  btns.hidden = true;
 };
 
 const renderPrompt = () => {
@@ -107,9 +126,13 @@ const renderKey = () => {
   }
 };
 
-document.querySelector("#nav2").onclick = () => renderAbout();
+document.querySelector("#nav1").onclick = () => renderHome();
+
+document.querySelector("#nav2").onclick = () => renderManifesto();
 
 document.querySelector("#nav3").onclick = () => renderInstructions();
+
+document.querySelector("#nav4").onclick = () => renderGuidelines();
 
 document.querySelector("#begin").onclick = () => renderPrompt();
 

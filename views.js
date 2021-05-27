@@ -1,23 +1,21 @@
-export const about = `
+export const manifesto = `
 <div class="content">
-<h3>About</h3>
+<h3>Manifesto</h3>
 
 <p>
-	In 1994, 12 black women coined the term “reproductive justice,” or "the complete physical, mental, spiritual, political, social, and economic well-being of women and girls, based on the full achievement and protection of women’s human rights" as Loretta Ross describes. Fighting against reproductive oppression and misinformation is essential for our liberation.
+	In 1994, 12 black women coined the term “reproductive justice,” or "the complete physical, mental, spiritual, poitical, social, and economic well-being of women and girls, based on the foll achievement and protection of women’s human rights" as Loretta Ross describes. Fighting against reproductive oppression and misinformation is essential for our liberation.
 </p>
 
 <p>
-	In 2021, 6 women of color were brought together by their shared interest in reproductive justice at the Feminist Future(s) Hackathon—Tia, Julie, Krithika, Dina, Althea and Tanvi. We believe in the power of healthy conversations to plant seeds for change. Conversations for Every Dinner  Table is a resource that reframes traditionally taboo and stigmatized topics related to reproductive processes so we can feel comfortable talking about them openly, learn from one another’s lived experiences, and have fun. By the end of the game, we hope that players can feel more connected with their own bodies as well as others’, more equipped to step outside of the oppressive narrative framework, and more confident in defining our own criteria of normalcy and care.
+	In 2021, <a href="#background">6 women of color</a> were brought together by their shared interest in reproductive justice at the <a href="https://www.ourfeministfutures.com/" target="_blank">Feminist Future(s) Hackathon</a>—Tia, Julie, Krithika, Dina, Althea and Tanvi. We believe in the power of healthy conversations to plant seeds for change. Conversations for Every Dinner  Table is a resource that reframes traditionally taboo and stigmatized topics related to reproductive processes so we can feel comfortable talking about them openly, learn from one another’s lived experiences, and have fun. By the end of the game, we hope that players can feel more connected with their own bodies as well as others’, more equipped to step outside of the oppressive narrative framework, and more confident in defining our own criteria of normalcy and care.
 </p>
 
 <p>
   Start a meaningful conversation by picking a card.
 </p>
-</div>
-`;
 
-export const background = `
-<div class="content">
+<h3 id="background">About the Team</h3>
+
 <h3>DINA</h3>
 
 <p>
@@ -27,7 +25,7 @@ Dina Benbrahim (she/her/hers) is an Arab multidisciplinary creative who uses a f
 <h3>TANVI</h3>
 
 <p>
-Tanvi Avasthi (she/her/hers is a nurse, soon-to-be-midwife-and-women’-health-nurse-practitioner, and anti-racism organizer. She grew up in Virginia and has spent the past few years in Baltimore learning to love crabs. Tanvi loves teaching nursing students and yoga students, guiding people through the best sex and birth possible, and crushing white supremacy and patriarchy unapologetically.
+Tanvi Avasthi (she/her/hers) is a nurse, soon-to-be-midwife-and-women’s-health-nurse-practitioner, and anti-racism organizer. She grew up in Virginia and has spent the past few years in Baltimore learning to love crabs. Tanvi loves teaching nursing students and yoga students, guiding people through the best sex and birth possible, and crushing white supremacy and patriarchy unapologetically.
 </p>
 
 <h3>TIA</h3>
@@ -48,14 +46,15 @@ Althea Rao (she/her/hers) creates social engagement models to facilitate playful
 
   
 </p>
-</div>`;
+</div>
+`;
 
 export const instructions = `
 <div class="content">
 <h3>Instructions</h3>
 
 <p>
-As the title suggests, Conversations for Every Dinner Table is suitable for intimate or social group gatherings. Conversations may take place among groups of 2 - 7 people of friends and families, between generations, and across genders. With the presence of a mediator, this game can be used to facilitate educational public programs, such as school workshops, public library offerings, or Trivia Night at local bars, using the digital version (currently work-in-progress). If there is a use case you’d like to suggest or discuss with us, please feel free to send an email to ffrj2021@googlegroups.com. 
+As the title suggests, Conversations for Every Dinner Table is suitable for intimate or social group gatherings. Conversations may take place among groups of 2 - 7 people of friends and families, between generations, and across genders. With the presence of a mediator, this game can be used to facilitate educational public programs, such as school workshops, public library offerings, or Trivia Night at local bars, using the digital version (currently work-in-progress). If there is a use case you’d like to suggest or discuss with us, please feel free to send an email to <a href="mailto:ffrj2021@googlegroups.com">ffrj2021@googlegroups.com</a>. 
 </p>
 
 <p>
@@ -69,7 +68,7 @@ Prompt Cards invite responses from players, starting a conversation. They are di
 </p>
 
 <p>
-Postpartum | Menstruation | Pregnancy | Menopause | Sex | Abortion | Reproductive health 
+Postpartum | Menstruation | Pregnancy | Menopause | Sex | Abortion | Reproductive Health 
 </p>
 
 <h3>KICKING OFF THE GAME</h3>
@@ -113,6 +112,75 @@ Once all the players agree to move on from the first Prompt Card, the next playe
 You do not have to finish discussing all the cards in order for this game to end. Like other dinner table conversations, this one is not rigid either.
 </p>
 </div>`;
+
+export const guidelines = `
+<div class="content">
+<h3>Community Guidelines</h3>
+<p>
+It is important to hold conversations that are respectful, thought-provoking, and most importantly safe. Safety in a conversation means not just being heard, but the words that are used do not cause more harm to those who are systematically left behind: people of color, people with disabilities, LGBTQ+ people, women, and many others intersectional identities that are usually not heard. Here are some community guidelines that can support healthy and fruitful conversations and are not meant to harm or pass judgment, but uplift and spread joy and safety. Take some time to read these together and propose additional guidelines you think would help you feel open to the possibilities of new conversations.
+</p>
+
+~~~
+
+<ul>
+<li>
+This game is intended to hold a safe space to discuss topics related to our bodies and broader reproductive justice.
+</li>
+
+<li>
+Be kind to yourself and other people while playing this game, and beyond. Sometimes harm can be unintentional, but impact is greater than intention - it is essential to acknowledge harm, discuss how it could be avoided, and help the person learn how to avoid unkindness in the future (even beyond this game!)
+</li>
+
+<li>
+Everyone playing this game should be a part of the conversation and have their voice heard should they wish to contribute. At the same time, players should feel free to skip questions, choose not to share, or decide to leave the game at any moment during the course of a game. 
+</li>
+
+<li>
+Active, open discussion is welcome. However, silence is also valid and welcome as a moment of deep engagement and reflection.
+</li>
+
+<li>
+View uncomfortable feelings -- your own or observed from others -- with tenderness and care.
+</li>
+
+<li>
+Some conversations take courage. Acknowledge that courage by agreeing to keep the conversations discussed during gameplay private and not to be repeated without permission from other players. 
+</li>
+
+<li>
+To help everyone enjoy the conversation, keep in mind the following when you contribute your thoughts or answers: 
+</li>
+
+<ul>
+<li>
+Avoid defamatory, indecent, offensive, profane, discriminatory, misleading, unlawful or threatening language. 
+</li>
+
+<li>
+Personal attacks, name-calling, trolling and abuse will not be acceptable and require an apology.
+</li>
+
+<li>
+Different viewpoints are welcome. Respect that other people playing this game have had different life experiences and may have a different perspective to yours.
+</li>
+</ul>
+
+<li>
+Ask the group if there are any other guidelines that players want to establish before playing the game.
+</li>
+</ul>
+</div>
+`;
+
+export const home = `
+<h1>Conversations For Every Dinner Table</h1>
+      <button id="begin">Click to Begin</button>
+    </div>
+    <div id="card" hidden></div>
+    <div id="btns">
+      <button id="key" hidden>Draw a Key Card</button>
+      <button id="answer" hidden>See the Answer</button>
+      <button id="next" hidden>See next card</button>`;
 
 export const key = `
 <h2></h2>

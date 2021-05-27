@@ -23,7 +23,7 @@ nav {
   padding-top: 0.2em;
 }
 
-ul {
+nav ul {
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   box-sizing: border-box;
@@ -31,7 +31,7 @@ ul {
   padding: 0px;
 }
 
-li {
+nav li {
   list-style: none;
   font-size: 15px;
   margin: 0 15px;
@@ -39,25 +39,38 @@ li {
 
 a {
   color: black;
-  text-decoration: none;
+  text-decoration: underline dashed;
 }
 
-li:hover {
+a:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+nav li:hover {
   text-decoration: underline dashed;
   transition-duration: 0.2s;
 }
 
 #nav1 {
   grid-column-start: 1;
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 
 #nav2 {
-  grid-column-start: -2;
+  grid-column-start: -3;
 }
 
 #nav3 {
+  grid-column-start: -2;
+}
+
+#nav4 {
   grid-column-start: -1;
+}
+
+p {
+  line-height: 2;
 }
 
 body {
@@ -76,6 +89,19 @@ body {
 .content {
   height: calc(89vh);
   overflow-y: auto;
+}
+
+.content p {
+  margin: calc(3vh) calc(15vw);
+}
+
+.content ul {
+  margin: calc(3vh) calc(15vw);
+  line-height: 2;
+}
+
+.content li {
+  margin-top: 2em;
 }
 
 #app {
@@ -116,11 +142,6 @@ h3 {
   margin-top: 3em;
 }
 
-p {
-  margin: calc(3vh) calc(15vw);
-  line-height: 2;
-}
-
 #card {
   background-color: white;
   border: 1px solid black;
@@ -136,7 +157,7 @@ p {
   position: absolute;
   top: 5.8em;
   height: 19em;
-  width: 19.2em;
+  width: 19em;
   overflow-y: auto;
 }
 
@@ -163,4 +184,13 @@ img {
   width: 3em;
   display: block;
   margin: 2em auto 1em auto;
+}
+
+.pseudolink {
+  text-decoration: underline dashed;
+}
+
+.pseudolink:hover {
+  background-color: white;
+  transition-duration: 0.5s;
 }
