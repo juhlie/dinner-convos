@@ -325,7 +325,7 @@ export const PROMPT_CARDS = [
   {
     title: "THINK WILDLY",
     prompt:
-      "In 2068, a pair of [incognito underpants] are invented to help build our anti-shaming muscle. The underpants key feature lets you witness every moment of someone bleeding through their clothes in public. Would you choose to wear these underpants? Why or why not?",
+      "In 2068, a pair of [incognito underpants] are invented to help build our anti-shaming muscle. The underpants' key feature lets you witness every moment of someone bleeding through their clothes in public. Would you choose to wear these underpants? Why or why not?",
     answer: "That's wild!",
     category: "menstruation",
   },

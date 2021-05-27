@@ -57,16 +57,35 @@ nav li:hover {
   grid-column-end: -4;
 }
 
+#nav1 a {
+  text-decoration: none;
+}
+
 #nav2 {
   grid-column-start: -3;
+}
+
+#nav2:hover {
+  background-color: white;
+  transition-duration: 0.5s;
 }
 
 #nav3 {
   grid-column-start: -2;
 }
 
+#nav3:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
 #nav4 {
   grid-column-start: -1;
+}
+
+#nav4:hover {
+  background-color: white;
+  transition-duration: 0.5s;
 }
 
 p {
@@ -193,4 +212,52 @@ img {
 .pseudolink:hover {
   background-color: white;
   transition-duration: 0.5s;
+}
+
+.modal {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 7px 7px cornsilk;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  max-width: 90%;
+  height: 550px;
+  max-height: 90%;
+}
+
+.scrollable {
+  height: 75%;
+  width: 82%;
+  overflow-y: auto;
+  margin: auto;
+  line-height: 2;
+  box-sizing: border-box;
+}
+
+.scrollable p {
+  text-align: left;
+}
+
+.scrollable li {
+  text-align: left;
+}
+
+.close {
+  text-align: right;
+  position: absolute;
+  right: 1.7em;
+  top: 1em;
+  font-weight: bold;
+}
+
+.modal button {
+  background-color: seashell;
+}
+
+.modal button:hover {
+  background-color: cornsilk;
+  transition: 0.5s;
 }

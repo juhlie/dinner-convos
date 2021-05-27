@@ -7,6 +7,7 @@ import {
   prompt,
   guidelines,
   home,
+  guidelinesModal,
 } from "/views.js";
 
 const shuffle = (deck) => {
@@ -43,6 +44,9 @@ const keyBtn = document.querySelector("#key");
 const answerBtn = document.querySelector("#answer");
 const nextBtn = document.querySelector("#next");
 const btns = document.querySelector("#btns");
+const modal = document.querySelector(".modal");
+const closeModal = document.querySelector(".close");
+const proceed = document.querySelector("#proceed");
 
 const renderHome = () => {
   app.innerHTML = home;
@@ -66,11 +70,19 @@ const renderGuidelines = () => {
   btns.hidden = true;
 };
 
+const renderGuidelinesModal = () => {
+  modal.hidden = false;
+  proceed.hidden = false;
+  document.querySelector(".modal-content").innerHTML = guidelinesModal;
+  document.querySelector("h3").innerHTML = "Community Guidelines";
+};
+
 const renderPrompt = () => {
   // show / hide elements
   title.hidden = true;
   startBtn.hidden = true;
   nextBtn.hidden = true;
+  modal.hidden = true;
   card.hidden = false;
   answerBtn.hidden = false;
   keyBtn.hidden = false;
@@ -82,7 +94,7 @@ const renderPrompt = () => {
 
   // insert content
   document.querySelector("h2").innerHTML = currentPrompt.title;
-  document.querySelector("p").innerHTML = currentPrompt.prompt;
+  document.querySelector("#card p").innerHTML = currentPrompt.prompt;
   document.querySelector("h4").innerHTML = currentPrompt.category;
 
   // if deck is empty, re-shuffle
@@ -99,7 +111,7 @@ const renderAnswer = () => {
   card.innerHTML = answer;
 
   // insert content
-  document.querySelector("p").innerHTML = currentPrompt.answer;
+  document.querySelector("#card p").innerHTML = currentPrompt.answer;
   document.querySelector("h4").innerHTML = currentPrompt.category;
 };
 
@@ -118,7 +130,7 @@ const renderKey = () => {
   document.querySelector("h2").innerHTML = currentKey.title;
   document.querySelector("img").src = currentKey.image;
   document.querySelector("img").alt = currentKey.alt;
-  document.querySelector("p").innerHTML = currentKey.content;
+  document.querySelector("#card p").innerHTML = currentKey.content;
 
   // if deck is empty, re-shuffle
   if (keyOrder.length === 0) {
@@ -126,7 +138,7 @@ const renderKey = () => {
   }
 };
 
-document.querySelector("#nav1").onclick = () => renderHome();
+// document.querySelector("#nav1").onclick = () => renderHome();
 
 document.querySelector("#nav2").onclick = () => renderManifesto();
 
@@ -134,7 +146,11 @@ document.querySelector("#nav3").onclick = () => renderInstructions();
 
 document.querySelector("#nav4").onclick = () => renderGuidelines();
 
-document.querySelector("#begin").onclick = () => renderPrompt();
+document.querySelector("#begin").onclick = () => renderGuidelinesModal();
+
+closeModal.onclick = () => (modal.hidden = true);
+
+proceed.onclick = () => renderPrompt();
 
 answerBtn.onclick = () => renderAnswer();
 

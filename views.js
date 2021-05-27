@@ -172,6 +172,62 @@ Ask the group if there are any other guidelines that players want to establish b
 </div>
 `;
 
+export const guidelinesModal = `
+<p>
+It is important to hold conversations that are respectful, thought-provoking, and most importantly safe. Safety in a conversation means not just being heard, but the words that are used do not cause more harm to those who are systematically left behind: people of color, people with disabilities, LGBTQ+ people, women, and many others intersectional identities that are usually not heard. Here are some community guidelines that can support healthy and fruitful conversations and are not meant to harm or pass judgment, but uplift and spread joy and safety. Take some time to read these together and propose additional guidelines you think would help you feel open to the possibilities of new conversations.
+</p>
+
+~~~
+
+<ul>
+<li>
+This game is intended to hold a safe space to discuss topics related to our bodies and broader reproductive justice.
+</li>
+
+<li>
+Be kind to yourself and other people while playing this game, and beyond. Sometimes harm can be unintentional, but impact is greater than intention - it is essential to acknowledge harm, discuss how it could be avoided, and help the person learn how to avoid unkindness in the future (even beyond this game!)
+</li>
+
+<li>
+Everyone playing this game should be a part of the conversation and have their voice heard should they wish to contribute. At the same time, players should feel free to skip questions, choose not to share, or decide to leave the game at any moment during the course of a game. 
+</li>
+
+<li>
+Active, open discussion is welcome. However, silence is also valid and welcome as a moment of deep engagement and reflection.
+</li>
+
+<li>
+View uncomfortable feelings -- your own or observed from others -- with tenderness and care.
+</li>
+
+<li>
+Some conversations take courage. Acknowledge that courage by agreeing to keep the conversations discussed during gameplay private and not to be repeated without permission from other players. 
+</li>
+
+<li>
+To help everyone enjoy the conversation, keep in mind the following when you contribute your thoughts or answers: 
+</li>
+
+<ul>
+<li>
+Avoid defamatory, indecent, offensive, profane, discriminatory, misleading, unlawful or threatening language. 
+</li>
+
+<li>
+Personal attacks, name-calling, trolling and abuse will not be acceptable and require an apology.
+</li>
+
+<li>
+Different viewpoints are welcome. Respect that other people playing this game have had different life experiences and may have a different perspective to yours.
+</li>
+</ul>
+
+<li>
+Ask the group if there are any other guidelines that players want to establish before playing the game.
+</li>
+</ul>
+`;
+
 export const home = `
 <h1>Conversations For Every Dinner Table</h1>
       <button id="begin">Click to Begin</button>
@@ -186,8 +242,8 @@ export const key = `
 <h2></h2>
 <div class="card-content">
 <img></img>
-</div>
 <p></p>
+</div>
 `;
 
 export const prompt = `

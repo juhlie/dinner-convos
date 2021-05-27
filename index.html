@@ -32,7 +32,7 @@
   <body>
     <nav>
       <ul>
-        <li id="nav1">Conversations For Every Dinner Table</li>
+        <li id="nav1"><a href="/">Conversations For Every Dinner Table</a></li>
         <li id="nav2">Manifesto</li>
         <li id="nav3">Instructions</li>
         <li id="nav4">Guidelines</li>
@@ -41,6 +41,14 @@
     <div id="app">
       <h1>Conversations For Every Dinner Table</h1>
       <button id="begin">Click to Begin</button>
+      <div class="modal" hidden>
+        <span class="close">&times;</span>
+        <h3></h3>
+        <div class="scrollable">
+          <div class="modal-content"></div>
+          <button id="proceed" hidden>I am ready to continue</button>
+        </div>
+      </div>
     </div>
     <div id="card" hidden></div>
     <div id="btns">
