@@ -49,6 +49,7 @@ const btns = document.querySelector("#btns");
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".close");
 const proceed = document.querySelector("#proceed");
+const footer = document.querySelector("footer");
 let keyCardCount = 0;
 
 const renderHome = () => {
@@ -59,24 +60,28 @@ const renderManifesto = () => {
   app.innerHTML = manifesto;
   card.hidden = true;
   btns.hidden = true;
+  footer.hidden = true;
 };
 
 const renderInstructions = () => {
   app.innerHTML = instructions;
   card.hidden = true;
   btns.hidden = true;
+  footer.hidden = true;
 };
 
 const renderGuidelines = () => {
   app.innerHTML = guidelines;
   card.hidden = true;
   btns.hidden = true;
+  footer.hidden = true;
 };
 
 const renderCardDesign = () => {
   app.innerHTML = cardDesign;
   card.hidden = true;
   btns.hidden = true;
+  footer.hidden = true;
 };
 
 const renderGuidelinesModal = () => {
@@ -94,6 +99,7 @@ const renderPrompt = () => {
   modal.hidden = true;
   card.hidden = false;
   keyBtn.hidden = false;
+  footer.hidden = false;
   card.innerHTML = prompt;
 
   // get current card

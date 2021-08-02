@@ -44,7 +44,7 @@ Tia Jain (she/her/hers) is an incoming freshman at UC Berkeley studying Computer
 Althea Rao (she/her/hers) creates social engagement models to facilitate playful conversations that unpack normalized systemic power imbalance. She draws influence from media studies, intersectionality, design justice and grass-root organizing. Her project Vagina Chorus, a bio-responsive, socially-engaged multimedia performance spotlighting women’s health and healthcare accessibilities, is a recipient of the 2020 MAP Fund. Currently, she focuses on revealing states of institutionalized disempowerment, facilitating radical community healing, and designing systems for intrinsic accountability.
 </p>
 
-<a href="https://altheamrao.myportfolio.com/" target="_blank">website</a> / <a href="https://www.instagram.com/cloudville/" target="_blank">instagram</a> 
+<a href="https://altheamrao.myportfolio.com/" target="_blank">website</a> / <a href="https://www.instagram.com/cloudvillle/" target="_blank">instagram</a> 
 
 
 <h3>JULIE CHO</h3>
@@ -57,10 +57,10 @@ Julie Cho (she/her/hers) is an LA-based social psychology researcher studying so
 
 <h3>JULIE LAM</h3>
 <p>
-Julie Lam (she/her/hers) is studying Computer Science, Cognitive Science, and Arts & Creative Technologies at Oberlin College (class of 2023). She is currently interested in the intersection of new media, design justice, and human-computer interaction. She believes in interdisciplinary approaches towards building technology that emphasize a critical and artistic lens, and has spent the past six years involved in community art initiatives and feminist and antiracist organizing, most recently in the realm of AI ethics. 
+Julie Lam (she/her/hers) is studying Computer Science, Cognitive Science, and Arts & Creative Technologies at Oberlin College (class of 2023). She is currently interested in the intersection of new media, design justice, and human-computer interaction. She believes in building technology using a critical and interdisciplinary lens, and has spent the past six years working within community art initiatives and feminist and antiracist organizing, most recently in the realm of AI ethics. 
 </p>
 
-<a href="https://julielam.glitch.me" target="_blank">website</a> / <a href="https://www.instagram.com/luv_bugz/" target="_blank">instagram</a> 
+<a href="https://julielam.glitch.me" target="_blank">website</a> / <a href="https://www.instagram.com/juliel.am/" target="_blank">instagram</a> 
 
 <h3>ARSH</h3>
 
