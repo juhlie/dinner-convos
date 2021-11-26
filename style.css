@@ -37,6 +37,10 @@ nav li {
   margin: 0 0.8em;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 a {
   color: black;
   text-decoration: underline dashed;
@@ -54,7 +58,7 @@ nav li:hover {
 
 #nav1 {
   grid-column-start: 1;
-  grid-column-end: -4;
+  grid-column-end: -10;
 }
 
 #nav1 a {
@@ -62,19 +66,23 @@ nav li:hover {
 }
 
 #nav2 {
-  grid-column-start: -4;
+  grid-column-start: -6;
 }
 
 #nav3 {
-  grid-column-start: -3;
+  grid-column-start: -5;
 }
 
 #nav4 {
-  grid-column-start: -2;
+  grid-column-start: -4;
 }
 
 #nav5 {
-  grid-column-start: -1;
+  grid-column-start: -3;
+}
+
+#nav6 {
+  grid-column-start: -2;
 }
 
 .nav-hover:hover {
@@ -100,10 +108,9 @@ body {
 }
 
 footer {
-  position: fixed;
   width: 100%;
   bottom: 2.5em;
-  text-align: center;
+  margin: calc(2vh) 0px;
 }
 
 footer a {

@@ -60,7 +60,7 @@ Julie Cho (she/her/hers) is an LA-based social psychology researcher studying so
 Julie Lam (she/her/hers) is studying Computer Science, Cognitive Science, and Arts & Creative Technologies at Oberlin College (class of 2023). She is currently interested in the intersection of new media, design justice, and human-computer interaction. She believes in building technology using a critical and interdisciplinary lens, and has spent the past six years working within community art initiatives and feminist and antiracist organizing, most recently in the realm of AI ethics. 
 </p>
 
-<a href="https://julielam.glitch.me" target="_blank">website</a> / <a href="https://www.instagram.com/juliel.am/" target="_blank">instagram</a> 
+<a href="https://julielam.glitch.me" target="_blank">website</a> / <a href="https://www.instagram.com/2julies/" target="_blank">instagram</a> 
 
 <h3>ARSH</h3>
 
