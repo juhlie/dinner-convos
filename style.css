@@ -46,7 +46,7 @@ a {
   text-decoration: underline dashed;
 }
 
-a:hover {
+a:hover, li span:hover {
   background-color: white;
   transition-duration: 0.5s;
 }
@@ -83,11 +83,6 @@ nav li:hover {
 
 #nav6 {
   grid-column-start: -2;
-}
-
-.nav-hover:hover {
-  background-color: white;
-  transition-duration: 0.5s;
 }
 
 p {
@@ -300,4 +295,75 @@ h2 {
 
 #socials {
   margin: auto;
+}
+
+@media only screen and (max-width: 750px) {
+  #btns {
+    margin-bottom: 5.5rem;;
+  }
+
+  nav ul {
+    display: block !important;
+    text-align: right;
+  }
+
+  body {
+    zoom: 0.95;
+  }
+
+  #nav1 a {
+    font-weight: 900;
+  }
+
+  #nav, #app, #card, #btns {
+    zoom: 0.8;
+  }
+
+  h1 {
+    margin: 3.5em auto 1em;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 750px) {
+  #nav1 a {
+    position: absolute;
+    top: 7vh;
+    left: 3vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #nav, #app, #card, #btns {
+    zoom: 0.75;
+  }
+
+  h1 {
+    margin: 3em auto 1em;
+  }
+
+  #btns {
+    padding-bottom: 7rem;;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #nav1 a {
+    position: relative
+  }
+
+  #app, #card, #btns {
+    zoom: 0.7;
+  }
+
+  #nav {
+    zoom: 0.6;
+  }
+
+  #btns {
+    margin-bottom: 8rem;;
+  }
+
+  h1 {
+    margin: 2em auto 1em;
+  }
 }

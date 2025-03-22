@@ -92,6 +92,7 @@ const renderGuidelinesModal = () => {
 };
 
 const renderPrompt = () => {
+  app.classList.remove("vertical-align");
   // show / hide elements
   title.hidden = true;
   startBtn.hidden = true;
