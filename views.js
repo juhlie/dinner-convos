@@ -66,7 +66,7 @@ Julie Lam (she/her/hers) is studying Computer Science, Cognitive Science, and Ar
 <p>
 Aditi Khare came across this website through their friend Julie in 2025, and is responsible for making this site mobile responsive. Their interests lie at the intersection of visual art, digital interaction, and social justice.
 </p>
-<a href="https://pufferfishsworld.glitch.me/about.html" target="_blank">website</a> 
+<a href="www.pufferfishsworld.com" target="_blank">website</a> 
 
 <h3>ARSH</h3>
 
