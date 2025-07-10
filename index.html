@@ -1,74 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      name="description"
-      content="
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="
 			Conversations for Every Dinner Table is a resource that aims to support the power of individuals to provoke open and healthy discussions on how to achieve better lives for their families and their communities.
-			"
-    />
+			" />
 
-    <title>Conversations For Every Dinner Table</title>
+  <title>Conversations For Every Dinner Table</title>
 
-    <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono"
-    />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Karla"
-    />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla" />
 
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="static/favicon.ico" type="image/x-icon" />
 
-    <script src="/script.js" type="module" defer></script>
-  </head>
+  <script src="script.js" type="module" defer></script>
+</head>
 
-  <body>
-    <nav>
-      <ul>
-        <li id="nav1"><a href="/">Conversations For Every Dinner Table</a></li>
-        <li id="nav2"><span>Manifesto</span></li>
-        <li id="nav3"><span>Instructions</span></li>
-        <li id="nav4"><span>Guidelines</span></li>
-        <li id="nav5"><span>Design</span></li>
-        <li id="nav6">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScTWafnvQIdr5Vwf1NbEsLXXelfIc40HVNFropfZu3cmgTEqw/viewform"
-            target="_blank"
-            >Feedback</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div id="app">
-      <h1>Conversations For Every Dinner Table</h1>
-      <button id="begin">Click to Begin</button>
-      <div class="modal" hidden>
-        <span class="close">&times;</span>
-        <h3></h3>
-        <div class="scrollable">
-          <div class="modal-content"></div>
-          <button id="proceed" hidden>I am ready to continue</button>
-        </div>
+<body>
+  <nav>
+    <ul>
+      <li id="nav1"><a href="index.html">Conversations For Every Dinner Table</a></li>
+      <li id="nav2"><span>Manifesto</span></li>
+      <li id="nav3"><span>Instructions</span></li>
+      <li id="nav4"><span>Guidelines</span></li>
+      <li id="nav5"><span>Design</span></li>
+      <li id="nav6">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScTWafnvQIdr5Vwf1NbEsLXXelfIc40HVNFropfZu3cmgTEqw/viewform"
+          target="_blank">Feedback</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="app">
+    <h1>Conversations For Every Dinner Table</h1>
+    <button id="begin">Click to Begin</button>
+    <div class="modal" hidden>
+      <span class="close">&times;</span>
+      <h3></h3>
+      <div class="scrollable">
+        <div class="modal-content"></div>
+        <button id="proceed" hidden>I am ready to continue</button>
       </div>
     </div>
-    <div class="content">
-      <div id="card" hidden></div>
-      <div id="btns">
-        <button id="key" hidden>Draw a Key Card</button>
-        <button id="answer" hidden>See the Answer</button>
-        <button id="back" hidden>Back to Card</button>
-        <button id="next" hidden>Draw a Prompt Card</button>
-        <footer hidden></footer>
-      </div>
+  </div>
+  <div class="content">
+    <div id="card" hidden></div>
+    <div id="btns">
+      <button id="key" hidden>Draw a Key Card</button>
+      <button id="answer" hidden>See the Answer</button>
+      <button id="back" hidden>Back to Card</button>
+      <button id="next" hidden>Draw a Prompt Card</button>
+      <footer hidden></footer>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

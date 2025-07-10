@@ -269,13 +269,13 @@ Also, check out Repro Convos on
         >Facebook</a
       >
 </p>
-<img src="/assets/mockup_03.jpg"></img>
-<img src="/assets/mockup_04.jpg"></img>
-<img src="/assets/mockup_02.jpg"></img>
-<img src="/assets/mockup_01.jpg"></img>
-<img src="/assets/mockup_05.jpg"></img>
-<img src="/assets/mockup_06.jpg"></img>
-<img src="/assets/mockup_07.jpg"></img>
+<img src="static/mockup_03.jpg"></img>
+<img src="static/mockup_04.jpg"></img>
+<img src="static/mockup_02.jpg"></img>
+<img src="static/mockup_01.jpg"></img>
+<img src="static/mockup_05.jpg"></img>
+<img src="static/mockup_06.jpg"></img>
+<img src="static/mockup_07.jpg"></img>
 </div>
 `;
 

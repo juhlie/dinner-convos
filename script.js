@@ -1,4 +1,4 @@
-import { KEY_CARDS, PROMPT_CARDS } from "/cards.js";
+import { KEY_CARDS, PROMPT_CARDS } from "./cards.js";
 import {
   manifesto,
   answer,
@@ -9,7 +9,7 @@ import {
   home,
   guidelinesModal,
   cardDesign,
-} from "/views.js";
+} from "./views.js";
 
 const shuffle = (deck) => {
   const order = [];
